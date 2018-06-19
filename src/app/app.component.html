@@ -1,6 +1,25 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 
-<h1 [class]='cl4' (mouseover)="my_method()">{{title | uppercase}}</h1>
+<!-- <h1 [class]='cl4' (mouseover)="my_method()">{{title | uppercase}}</h1>
 Name: <input type="text" [(ngModel)]="username" placeholder="Hi Gullu"> {{username}}
-<app-heros></app-heros>
+<app-heros></app-heros> -->
+<h1>Effected here.</h1>
+<div class="navbar-main">
+    <ul class="nav nav-tabs bg-primary">
+        <li class="nav-item">
+            <a routerLink="Home" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="About" class="nav-link text-white">About</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="Contact" class="nav-link text-white">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="Services" class="nav-link text-white">Services</a>
+        </li>
+    </ul>
+</div>
+<router-outlet></router-outlet>
+<H1>No effected here.</H1>
