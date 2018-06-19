@@ -1,0 +1,25 @@
+<!-- <h2>
+
+    {{ hero.name | uppercase }} Details</h2>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    <tr *ngFor="let a of heros">
+        <td>{{ a.id }}</td>
+        <td>{{ a.name }}</td>
+    </tr>
+</table> -->
+<div>
+    <label>Name:
+            <input [(ngModel)]="hero.name" placeholder="Name">
+            {{ hero.name }}
+    </label>
+</div>
+
+<!-- <ul>
+    <li *ngFor="let x of heros">
+        <span>{{x.id}}</span> {{x.name}}
+    </li>
+</ul> -->
